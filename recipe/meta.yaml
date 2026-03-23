@@ -1,5 +1,5 @@
 {% set name = "vbmicrolensing" %}
-{% set version = "5.3.5" %}
+{% set version = "5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,8 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 83a3b8cb877d96aaa8bb51230435bf32b664c2e12cd27f5e82804a8c72d58dc8
+  sha256: eed2cfe2438b7c051819676e808eb2af623c4fdd36438ba68e18ddc344b5adf0
+
 
 build:
   number: 1
